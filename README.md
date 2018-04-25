@@ -16,14 +16,15 @@
 
 
 **EXTRA NOTES**
-
-	Put wifi profiles in ${HOME}/.interfaces/
 	
-	Your /etc/network/interfaces should contain:
+Your /etc/network/interfaces should contain:
 	
 	source /etc/network/interfaces.d/*
 	
-	so that it will read the profiles that we will be symlinking there.
+so that it will read the profiles that we will be symlinking there.
+
+
+Put wifi profiles in ${HOME}/.interfaces/
 
 Example of a profile:
 
@@ -33,4 +34,4 @@ iface wlan0 inet dhcp
   wpa-psk my_wifi_passwd
 ```
 
-After switching profiles, you'll probably want to `sudo ifdown wlan0` and `sudo ifup wlan0` to reconnect
+After switching profiles, you'll probably want to `sudo ifdown wlan0` and `sudo ifup wlan0` to reconnect.
