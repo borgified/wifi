@@ -17,7 +17,7 @@
 
 **EXTRA NOTES**
 
-Put wifi profiles in ${HOME}/.interfaces/
+	Put wifi profiles in ${HOME}/.interfaces/
 
 Example of a profile:
 
