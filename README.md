@@ -22,7 +22,7 @@ Put wifi profiles in ${HOME}/.interfaces/
 Example of a profile:
 
 ```
-iface wlan1 inet dhcp
+iface wlan0 inet dhcp
   wpa-ssid my_wifi_ssid
   wpa-psk my_wifi_passwd
 ```
