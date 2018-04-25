@@ -1,6 +1,6 @@
 **NAME**
 
-	./wifi.sh - switch between wifi profiles
+	./wifi.sh - switch between wifi profiles (for ubuntu systems)
 
 **SYNOPSIS**
 
@@ -18,6 +18,12 @@
 **EXTRA NOTES**
 
 	Put wifi profiles in ${HOME}/.interfaces/
+	
+	Your /etc/network/interfaces should contain:
+	
+	source /etc/network/interfaces.d/*
+	
+	so that it will read the profiles that we will be symlinking there.
 
 Example of a profile:
 
