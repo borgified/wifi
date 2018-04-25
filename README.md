@@ -11,7 +11,7 @@
 	./wifi.sh
 	  Lists available wifi profiles (no args)
 
-	./wifi.sh __use__ <profile>
+	./wifi.sh use <profile>
 	  Switch to a defined profile
 
 
